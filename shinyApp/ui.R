@@ -23,7 +23,8 @@ shinyUI(fluidPage(
                  tabsetPanel(
                    tabPanel("BMI Calculator",
                             h1(textOutput("overweight")),
-                            h4(textOutput("bmi"))),
+                            h2(textOutput("bmi")),
+                            p("Please see the help tab for more information")),
                    tabPanel("Help",
                             h4("This app calculates a persons BMI to determine if they are overweight or underweight."),
                             h4("To use the app, select your units and input your height and weight. the BMI will automatically
